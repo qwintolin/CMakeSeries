@@ -1,0 +1,19 @@
+# Commands
+
+-  rm -r *  -> removing all files from dir
+-  cmake ..\source\  -> For Generating project
+-  cmake -G "MinGW Makefiles" ..\source\  -> For Generating project in MinGW system 
+-  cmake --build .  ->For building project in current dir
+-  .\Hello.exe  -> For running the project 
+
+# In case of msbuild
+-  cmake ..\source\
+-  msbuild .\HelloApp.sln  (Move to folder where .sln file is located)
+-  .\Debug\Hello.exe    (Move to folder where .exe file is created for project)
+
+#CMakeLists.txt
+
+cmake_minimum_required  -> For minimum Version
+project  -> includes peroject name,description,language
+add_executble  -> includes executable files/target files
+target_include_directories  -> path for directories where .h files are stored
