@@ -24,3 +24,6 @@ target_include_directories  -> path for directories where .h files are stored
 
 # Git Commands
 - git fetch
+- git add .
+- git commit -m "Comment"
+- git push
