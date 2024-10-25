@@ -6,14 +6,21 @@
 -  cmake --build .  ->For building project in current dir
 -  .\Hello.exe  -> For running the project 
 
+- cmake --system-information info.txt  -> Copies all sys information to info.txt file
+
+-  cmake -G"Visual Studio 16 2019" -T"ClangCL" ..\source\   -> Use Visual studio Generator for generating project but using Clang compiler for code
+
 # In case of msbuild
 -  cmake ..\source\
 -  msbuild .\HelloApp.sln  (Move to folder where .sln file is located)
 -  .\Debug\Hello.exe    (Move to folder where .exe file is created for project)
 
-#CMakeLists.txt
+# CMakeLists.txt
 
 cmake_minimum_required  -> For minimum Version
 project  -> includes peroject name,description,language
 add_executble  -> includes executable files/target files
 target_include_directories  -> path for directories where .h files are stored
+
+# Git Commands
+- git fetch

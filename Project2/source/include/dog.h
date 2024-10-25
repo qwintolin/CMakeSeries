@@ -19,7 +19,7 @@ using namespace std;
         }
 
         void print_info(){
-            cout<<"Dog[name :"<<dog_name<<endl;
+            cout<<"Dog [name : "<<dog_name<<"]"<<endl;
         }
 
     private:
